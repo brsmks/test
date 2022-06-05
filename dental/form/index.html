@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>かわぐち歯科医院</title>
+
+	<script src="common/js/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="../common/css/reset.css">
+	<link rel="stylesheet" href="../common/css/style.css">
+</head>
+<body>
+	<header>
+		<div class="conts-inner">
+			<div class="header-l-inner">
+				<h1 class="header-logo"><img src="../common/img/logo.png" alt="かわぐち歯科医院"></h1>
+				<ul class="main-nav">
+					<li><a href="">当院について</a></li>
+					<li><a href="">診療案内</a></li>
+					<li><a href="">お知らせ</a></li>
+					<li><a href="">採用情報</a></li>
+				</ul>
+			</div>
+			<div class="header-r-inner">
+				<span class="phone-num"><img src="../common/img/icon_tele.png" alt="" >012-345-678</span>
+				<p>
+					受付時間：午前 8:30~12:00/午後 14:00~18:30<br>
+					休診日：土･日曜日の午後、祝日
+				</p>
+			</div>
+			<div id="hamburger-icon">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		<div class="sp-main-nav">
+			<ul>
+				<li><a href="">当院について</a></li>
+				<li><a href="">診療案内</a></li>
+				<li><a href="">お知らせ</a></li>
+				<li><a href="">採用情報</a></li>
+			</ul>
+			<div>
+				<span class="phone-num"><img src="../common/img/icon_tele.png" alt="" >012-345-678</span>
+				<p>
+					受付時間：午前 8:30~12:00/午後 14:00~18:30<br>
+					休診日：土･日曜日の午後、祝日
+				</p>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="conts-inner">
+            <section class="page-title">
+                <h2>下層ページ</h2>
+                <p>ここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
+            </section>
+            <p class="align-C">
+                ネット予約でできるのは仮予約のみです。あらかじめご了承ください。<br>
+                申し込み後、当院より改めてご連絡し、予約日時を確認させていただきます。<br>
+                あらかじめ、ご連絡のつく電話番号をご用意いただきますようお願い申し上げます。
+            </p>
+            <div class="form-inner">
+                <form action="get.php" method="get">
+                    <p>お名前：<input type="text" name="name"></p>
+                    <p>性別：
+                        <input type="radio" name="gender" value="男性">男性
+                        <input type="radio" name="gender" value="男性">女性
+                    </p>
+                    <p>
+                        <select name="blood">血液型：
+                            <option value="A">A型</option>
+                            <option value="B">B型</option>
+                            <option value="O">O型</option>
+                            <option value="AB">AB型</option>
+                        </select>
+                    </p>
+                    <p>ご意見<br>
+                        <textarea name="opinion" cols="30" rows="10"></textarea>
+                    </p>
+                    <p><input type="submit" name="submitBtn" value="送信"></p>
+                </form>
+            </div>
+        </div>
+	</main>
+	<footer>
+		<div class="conts-inner">
+			<h1><img src="../common/img/logo.png" height="48px" alt="かわぐち歯科医院"></h1>
+			<p>〒000-0000<br>埼玉県川口市XXXXXXXXXXXXXXXX</p>
+			<p class="copy">©︎kawaguchi-clinic</p>
+		</div>
+	</footer>
+
+	<script>
+		$('#hamburger-icon').on('click',function(){
+			$('#hamburger-icon').toggleClass('active');
+			$('.sp-main-nav').toggleClass('active');
+		});
+	</script>
+</body>
+</html>
