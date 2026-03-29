@@ -1,0 +1,380 @@
+@charset "UTF-8";
+/* common */
+#header.pane-header {
+    z-index: 100;
+}
+.block-footer-pagetop {
+    z-index: 100;
+}
+
+#shortsday250730 {
+	text-align: center;
+	font-family: 'Noto Sans JP', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "MS Pゴシック", "MS P Gothic", sans-serif;
+	-webkit-font-feature-settings: 'palt';
+	font-feature-settings: 'palt';
+	font-weight: normal;
+	color: #514648;
+    background-color: #fffad1;
+	letter-spacing: .08em;
+	line-height: 1.7;
+	margin: 0 auto;
+	max-width: 750px;
+    padding: 0;
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: contain;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#shortsday250730 img {
+    width: 100%;
+    height: auto;
+	vertical-align: middle;
+}
+
+#shortsday250730 a {
+	display: block;
+    width: 100%;
+    height: auto;
+    color: inherit;
+	text-decoration: none;
+}
+
+#shortsday250730 h2, #shortsday250730 h3 {
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+    font-weight: 500;
+}
+
+/* item-info */
+
+/* btn */
+.original-lpbtn_single {
+    margin: min(2.6vw,20px) auto 0;
+}
+.original-lpbtn_name--price {
+    display: inline-block!important;
+    font-size: 2em;
+}
+.original-lpbtn_case {
+}
+.original-lpbtn_cart {
+}
+.original-lpbtn_cart a {
+    color: #fff!important;
+    background-color: #514648!important;
+    outline: min(.13vw,1px) solid #fff;
+    font-size: min(3.2vw,24px);
+    line-height: 1.5;
+}
+.original-lpbtn_detail a {
+    color: #514648!important;
+    background-color: #fff!important;
+    outline: min(.13vw,1px) solid #514648;
+    font-size: min(3.2vw,24px);
+    line-height: 1.5;
+}
+.original-lpbtn_cart::after {
+    border-color: transparent transparent transparent #fff!important;
+}
+.original-lpbtn_detail::after {
+    border-color: transparent transparent transparent #514648!important;
+}
+@media only screen and (min-width: 768px) {
+    .original-lpbtn_single {
+        margin: 20px auto 0;
+    }
+    .original-lpbtn_cart a {
+        outline: 1px solid #fff;
+        font-size: 24px;
+    }
+    .original-lpbtn_detail a {
+        outline: 1px solid #514648;
+        font-size: 24px;
+    }
+}
+
+/*mv*/
+.shortsday250730-mv {
+    position: relative;
+}
+.shortsday250730-mv__title-inner {
+    position: absolute;
+    top: min(4.26vw,32px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.shortsday250730-mv__title--sub {
+    width: 42.66%;
+    max-width: 320px;
+    margin: 0 auto auto 0!important;
+}
+.shortsday250730-mv__title--icon {
+    width: 28.8%;
+    max-width: 216px;
+    margin: min(1.6vw,12px) auto 0 0!important;    
+}
+.shortsday250730-mv__title--main {
+    width: 56.53%;
+    max-width: 424px;
+    margin: 0 auto 0 0!important;      
+}
+.shortsday250730-mv__link {
+    position: absolute;
+    bottom: min(9.6vw,72px);
+    left: 0;
+    right: 0;
+    width: 79.46%!important;
+    max-width: 596px;
+    margin: min(4vw,30px) auto 0;
+    padding: min(1.6vw,12px);
+    color: #fff!important;
+    background-color: rgba(246,94,107,0.8);
+    font-size: min(3.73vw,28px);
+    font-weight: 600;
+}
+.shortsday250730-mv__link>span {
+    vertical-align: middle;
+}
+.shortsday250730-mv__link--arrow {
+    font-size: .5em;
+}
+@media only screen and (min-width: 768px) {
+    /*mv*/
+    .shortsday250730-mv__title-inner {
+        top: 32px;
+    }
+    .shortsday250730-mv__title--sub {
+    }
+    .shortsday250730-mv__title--icon {
+        margin: 12px auto 0 0!important;    
+    }
+    .shortsday250730-mv__link {
+        bottom: 72px;
+        margin: 30px auto 0;
+        padding: 12px;
+        font-size: 28px;
+    }
+}
+
+/*special 共通*/
+.shortsday250730-special {
+    margin: min(10.6vw,80px) auto 0;
+}
+.shortsday250730-special:first-child {
+    margin: min(4.8vw,36px) auto 0;
+}
+.shortsday250730-special__icon {
+    width: 31.33%;
+    max-width: 235px;
+    margin: 0 auto 0 0;      
+}
+.shortsday250730-special__title-text {
+    margin: min(1.6vw,12px) auto 0;
+    font-size: min(4vw,30px);
+    font-weight: 500;
+}
+.shortsday250730-special__title-text--red {
+    color: #f65e6b;
+    font-size: 1.5em;
+}
+.shortsday250730-special__link {
+    width: 79.46%!important;
+    max-width: 596px;
+    color: #fff!important;
+    background-color: #514648;
+    outline: min(.25vw,2px) solid #fff;
+    outline-offset: -1vw;
+    font-size: min(3.73vw,28px);
+    font-weight: 600;
+}
+.shortsday250730-special__link>span {
+    vertical-align: middle;
+}
+.shortsday250730-special__link--arrow {
+    font-size: .5em;
+}
+.shortsday250730-special__title-text--number {
+    display: inline-block!important;
+    width: auto!important;
+    height: min(11.73vw,88px)!important;
+    vertical-align: bottom!important;
+}
+.shortsday250730-special__item-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 92.53%;
+    max-width: 694px;
+    margin: min(3.2vw,24px) auto 0;
+}
+.shortsday250730-special__item {
+    width: 49%;
+    max-width: 336px;
+}
+.shortsday250730-special__item-name {
+    margin: min(2.1vw,16px) auto 0; 
+    font-size: min(3vw,24px);
+    line-height: 1.5;
+    letter-spacing: .05em;
+}
+.shortsday250730-special__item-price {
+    font-size: min(5.3vw,40px);
+    font-weight: 700;
+    line-height: 1.35;
+}
+.shortsday250730-special__item-price--red {
+    color: #e30708;
+}
+.shortsday250730-special__item-price--small01 {
+    font-size: .5em;
+}
+.shortsday250730-special__item-price--small02 {
+    font-size: .7em;
+}
+.shortsday250730-special__item .original-lpbtn_cart {
+    width: 96.72%!important;
+    max-width: 325px;
+    margin: min(1vw,8px) auto 0;
+}
+.shortsday250730-special__note {
+    margin: min(1vw,8px) auto 0;
+    font-size: min(2.1vw,16px);
+}
+@media only screen and (min-width: 768px) {
+    /*special 共通*/
+    .shortsday250730-special {
+        margin: 80px auto 0;
+    }
+    .shortsday250730-special:first-child {
+        margin: 36px auto 0;
+    }
+    .shortsday250730-special__title-text {
+        margin: 12px auto 0;
+        font-size: 30px;
+    }
+    .shortsday250730-special__link {
+        outline: 2px solid #fff;
+        outline-offset: -8px;
+        font-size: 28px;
+    }
+    .shortsday250730-special__link>span {
+        vertical-align: middle;
+    }
+    .shortsday250730-special__link--arrow {
+        font-size: .5em;
+    }
+    .shortsday250730-special__title-text--number {
+        height: 88px!important;
+    }
+    .shortsday250730-special__item-inner {
+        margin: 24px auto 0;
+    }
+    .shortsday250730-special__item-name {
+        margin: 16px auto 0; 
+        font-size: 24px;
+    }
+    .shortsday250730-special__item-price {
+        font-size: 40px;
+    }
+    .shortsday250730-special__item .original-lpbtn_cart {
+        margin: 8px auto 0;
+    }
+    .shortsday250730-special__note {
+        margin: 8px auto 0;
+        font-size: 16px;
+    }
+}
+
+/*special01*/ 
+#shortsday250730-special01 {
+    background: url("../img/special01_bg01.png"), url("../img/special01_bg02.png");
+    background-position: left min(10.92vw,82px), right min(10.92vw,82px);
+    background-repeat: no-repeat;
+    background-size: 18.93%;
+}
+.shortsday250730-special01__title-inner {
+    width: 62.4%!important;
+    max-width: 468px;
+    margin: min(1.6vw,12px) auto 0!important;
+}
+.shortsday250730-special01__title-text--number {
+    
+}
+#shortsday250730-special01 .shortsday250730-special__title-text {
+    margin: min(2.1vw,16px) auto 0;
+}
+#shortsday250730-special01 .shortsday250730-special__link {
+    margin: min(3.2vw,24px) auto 0!important;
+    padding: min(5.86vw,44px) min(4.26vw,32px);
+    border-radius: min(9vw,68px);
+}
+@media only screen and (min-width: 768px) {
+    /*special01*/ 
+    #shortsday250730-special01 {
+        background-position: left 82px, right 82px;
+    }
+    .shortsday250730-special01__title-inner {
+        margin: 12px auto 0!important;
+    }
+    #shortsday250730-special01 .shortsday250730-special__title-text {
+        margin: 16px auto 0;
+    }
+    #shortsday250730-special01 .shortsday250730-special__link {
+        margin: 24px auto 0!important;
+        padding: 44px 32px;
+        border-radius: 68px;
+    }
+}
+
+/*special02*/
+#shortsday250730-special02 .shortsday250730-special__link {
+    margin: min(5.3vw,40px) auto 0!important;
+    padding: min(4.26vw,32px);
+    border-radius: min(7.46vw,56px);
+}
+@media only screen and (min-width: 768px) {
+    /*special02*/
+    #shortsday250730-special02 .shortsday250730-special__link {
+        margin: 40px auto 0!important;
+        padding: 32px;
+        border-radius: 56px;
+    }
+}
+
+/*category*/
+.shortsday250730-category {
+    width: 90.66%!important;
+    max-width: 680px;
+    margin: min(12.8vw,96px) auto 0;
+    padding: 0 0 min(10.1vw,76px);
+}
+.shortsday250730-category__link-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: min(3.2vw,24px) auto 0;
+}
+.shortsday250730-category__link {
+    width: 32.05%!important;
+    max-width: 218px;
+    margin: 0 auto min(2.6vw,20px);
+    outline: min(.13vw,1px) solid #f65e6b;
+    font-size: min(3.46vw,26px);
+}
+@media only screen and (min-width: 768px) {
+    /*category*/
+    .shortsday250730-category {
+        margin: 96px auto 0;
+        padding: 0 0 76px;
+    }
+    .shortsday250730-category__link-inner {
+        margin: 24px auto 0;
+    }
+    .shortsday250730-category__link {
+        font-size: 26px;
+    }
+}
