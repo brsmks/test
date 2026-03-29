@@ -1,0 +1,267 @@
+@charset "UTF-8";
+/* common */
+#header.pane-header {
+    z-index: 100;
+}
+.block-footer-pagetop {
+    z-index: 100;
+}
+
+#braset250416 {
+	text-align: center;
+	font-family: 'Noto Sans JP', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "MS Pゴシック", "MS P Gothic", sans-serif;
+	-webkit-font-feature-settings: 'palt';
+	font-feature-settings: 'palt';
+	font-weight: 400;
+	color: #000;
+    background-color: #d5f1e0;
+	letter-spacing:  .15em;
+	line-height: 1.7;
+	margin: 0 auto;
+	max-width: 750px;
+    padding: 0;
+    background-image: url("../img/bg.jpg");
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: contain;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#braset250416 img {
+    width: 100%;
+    height: auto;
+	vertical-align: middle;
+}
+
+#braset250416 a {
+	display: block;
+    width: 100%;
+    height: auto;
+    color: inherit;
+	text-decoration: none;
+}
+
+#braset250416 h2, #braset250416 h3 {
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+/* item-info */
+
+/* btn */
+.original-lpbtn_single {}
+.original-lpbtn_name {
+    margin-top: min(2.1vw,16px)!important;
+}
+.original-lpbtn_name--price {
+    display: inline-block!important;
+    font-size: 2em;
+}
+.original-lpbtn_case {
+    padding: 0!important;
+}
+.original-lpbtn_cart {
+    margin: 0 min(1vw,8px) 0 0!important;
+}
+.original-lpbtn_cart a {
+    color: #fff!important;
+    background-color: #f1606c!important;
+}
+.original-lpbtn_detail a {
+    color: #fff!important;
+    background-color: #654747!important;
+    outline: unset;
+}
+.original-lpbtn_detail::after {
+    border-color: transparent transparent transparent #fff!important;
+}
+
+
+/*mv*/
+.braset250416-mv {
+    position: relative;
+    padding: 0 min(2.6vw,20px) min(5.3vw,40px);
+}
+.braset250416-mv::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 46.4vw;
+    max-height: 348px;
+    margin: 0 auto!important;
+    background-color: #f19199;
+}
+.braset250416-mv__image {
+    position: relative;
+}
+.braset250416-mv__title--main {
+    position: relative;
+    margin: min(3.2vw,24px) auto 0!important;
+}
+.braset250416-mv__title--sub {
+    position: absolute;
+    top :min(4.26vw,32px);
+    left: 0;
+    right: 0;
+    width: 94.6%;
+    max-width: 710px;
+    margin: 0 auto!important;
+}
+.braset250416-mv__title-ribbon {
+    display: block;
+    position: absolute;
+    bottom :min(20.26vw,152px);
+    left: 0;
+    width: 29.86%;
+    max-width: 224px;
+}
+@media only screen and (min-width: 768px) { 
+
+}
+
+/*item*/
+.braset250416-item-inner {
+    padding: min(6.4vw,48px) 0 min(10.6vw,80px);
+    background-image: url("../img/bg_ribbon01.png"), url("../img/bg_ribbon02.png");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-size: 39.46% auto;
+}
+.braset250416-item {
+    width: 94.6%;
+    max-width: 710px;
+    margin: min(6.4vw,48px) auto 0;
+    padding: min(5.3vw,40px) min(2.6vw,20px) min(6.4vw,48px);
+    background-color: rgba(255,255,255,.7);
+    border-radius: min(2.6vw,20px);
+}
+.braset250416-item:first-child {
+    margin: 0 auto;
+}
+.braset250416-item__title {}
+.braset250416-item__content01 {
+    display: flex;
+    justify-content: space-between;
+    margin: min(3.2vw,24px) auto 0;
+}
+.braset250416-item__content02 {
+    position: relative;
+    margin: min(3.2vw,24px) auto 0;
+    padding: min(3.2vw,24px) 0 min(2.1vw,16px);
+}
+.braset250416-item__image01 {
+    width: 65.67%!important;
+    max-width: 440px;
+    padding: min(4.26vw,32px) 0 min(2.1vw,16px);
+}
+.braset250416-item__image02 ,.braset250416-item__image05 {
+    width: 54.92%!important;
+    max-width: 368px;
+}
+.braset250416-item__image02 {
+    margin: 0 auto 0 0;
+}
+.braset250416-item__image05 {
+    margin: -5.3vw 0 0 auto;
+}
+.braset250416-item__image03 ,.braset250416-item__image04 {
+    position: absolute;
+    width: 44.17%!important;
+    max-width: 296px;
+}
+.braset250416-item__image03 {
+    top: 0;
+    right: 0;
+}
+.braset250416-item__image04 {
+    bottom: min(4.26vw,32px);
+    left: 0;
+}
+.braset250416-item__color-list {
+    width: 34%;
+    max-width: 228px;
+}
+.braset250416-item__color {
+    width: 92.98%!important;
+    max-width: 212px!important;
+}
+#braset250416-item01 .braset250416-item__color {
+    margin: -6.4vw auto 0 0;
+}
+#braset250416-item01 .braset250416-item__color:first-child {
+    margin: 0 auto 0 0;
+}
+#braset250416-item02 .braset250416-item__color {
+    margin: -6.4vw 0 0 auto;
+}
+#braset250416-item02 .braset250416-item__color:first-child {
+    margin: 0 0 0 auto;
+}
+.braset250416-item03__text {
+    position: absolute;
+    top: min(56.53vw,424px);
+    right: 0;
+    width: 44.17%;
+    max-width: 296px;
+}
+@media only screen and (min-width: 768px) {
+    .braset250416-item-inner {
+        padding: 48px 0 80px;
+    }
+    .braset250416-item {
+        margin: 48px auto 0;
+        padding: 40px 20px 48px;
+        border-radius: 20px;
+    }
+    .braset250416-item:first-child {
+    }
+    .braset250416-item__title {}
+    .braset250416-item__content01 {
+        margin: 24px auto 0;
+    }
+    .braset250416-item__content02 {
+        margin: 24px auto 0;
+        padding: 24px 0 16px;
+    }
+    .braset250416-item__image02 ,.braset250416-item__image05 {
+    }
+    .braset250416-item__image02 {
+    }
+    .braset250416-item__image05 {
+        margin: -40px 0 0 auto;
+    }
+    .braset250416-item__image03 ,.braset250416-item__image04 {
+    }
+    .braset250416-item__image03 {
+    }
+    .braset250416-item__image04 {
+        bottom: 32px;
+    }
+    .braset250416-item__image01 {
+    }
+    .braset250416-item__color-list {
+    }
+    .braset250416-item__color {
+    }
+    #braset250416-item01 .braset250416-item__color {
+        margin: -48px auto 0 0;
+    }
+    #braset250416-item01 .braset250416-item__color:first-child {
+    }
+    #braset250416-item02 .braset250416-item__color {
+        margin: -48px 0 0 auto;
+    }
+    #braset250416-item02 .braset250416-item__color:first-child {
+    }
+    .braset250416-item03__text {
+        top: 424px;
+    }
+}
