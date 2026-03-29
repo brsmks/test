@@ -1,0 +1,338 @@
+@charset "UTF-8";
+/* common */
+#header.pane-header {
+    z-index: 100;
+}
+.block-footer-pagetop {
+    z-index: 100;
+}
+
+#girlsbypj-all251008 {
+	text-align: left;
+	font-family: 'Noto Sans JP', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "MS Pゴシック", "MS P Gothic", sans-serif;
+	-webkit-font-feature-settings: 'palt';
+	font-feature-settings: 'palt';
+	font-weight: 400;
+	color: #000;
+    background-color: #f7dfe1;
+	letter-spacing:  .08em;
+	line-height: 1.7;
+	margin: 0 auto;
+	max-width: 750px;
+    padding: 0;
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: contain;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#girlsbypj-all251008 img {
+    width: 100%;
+    height: auto;
+	vertical-align: middle;
+}
+
+#girlsbypj-all251008 a {
+	display: block;
+    width: 100%;
+    height: auto;
+    color: inherit;
+	text-decoration: none;
+}
+
+#girlsbypj-all251008 h2, #girlsbypj-all251008 h3 {
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+/* item-info */
+
+/* btn */
+.original-lpbtn_single {
+    display: flex;
+    justify-content: space-between;
+    width: 86.13%;
+    max-width: 646px;
+    margin: min(3.2vw,24px) auto 0!important;
+}
+.original-lpbtn_name {
+    width: 51%;
+    max-width: 328px;
+    margin: 0!important;
+    padding: 0!important;
+    font-size: min(2.6vw,20px)!important;
+    text-align: right;
+}
+.original-lpbtn_name--price {
+    display: block!important;
+    font-size: 1.6em!important;
+    font-weight: 600;
+}
+.original-lpbtn_case {
+    display: block;
+    width: 46%;
+    max-width: 296px;
+    padding: 0!important;
+}
+.original-lpbtn_cart {
+    /*margin: 0 min(1vw,8px) 0 0!important;*/
+}
+.original-lpbtn_cart a {
+    color: #fff!important;
+    background-color: #c06a71!important;
+}
+.original-lpbtn_detail {
+    margin: min(1vw,8px) 0 0!important;
+}
+.original-lpbtn_detail a {
+    color: #fff!important;
+    background-color: #654747!important;
+    outline: none!important;
+}
+.original-lpbtn_detail::after {
+    border-color: transparent transparent transparent #fff!important;
+}
+@media only screen and (min-width: 768px) {
+    /* btn */
+    .original-lpbtn_single {
+        margin: 24px auto 0!important;
+    }
+    .original-lpbtn_name {
+        font-size: 20px!important;
+    }
+    .original-lpbtn_detail {
+        margin: 8px 0 0!important;
+    }
+}
+
+/*mv*/
+.girlsbypj-all251008-mv__image {
+    position: relative;
+}
+.girlsbypj-all251008-mv__title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 72.4%;
+    max-width: 543px;
+    margin: 0 auto!important;
+}
+.girlsbypj-all251008-mv__link-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.girlsbypj-all251008-mv__link--type01 {
+    width: 49.7%!important;
+    max-width: 373px;   
+}
+.girlsbypj-all251008-mv__link--type02 {
+    width: 32.9%!important;
+    max-width: 247px;
+    margin: min(.5vw,4px) 0 0;
+}
+.girlsbypj-all251008-mv__note {
+    width: 94.6%;
+    max-width: 710px;
+    margin: 0 auto;
+    color: #da6d76;
+    font-size: min(1.86vw,14px);
+    text-align: right;
+}
+@media only screen and (min-width: 768px) {
+    /*mv*/
+    .girlsbypj-all251008-mv__link--type02 {
+        margin: 4px 0 0;
+    }
+    .girlsbypj-all251008-mv__note {
+        font-size: 14px;
+    }
+}
+
+/*item*/
+.girlsbypj-all251008-item__inner {
+    padding: 0 0 min(9.6vw,72px);
+}
+.girlsbypj-all251008-item {
+    padding: min(9.6vw,72px) 0 min(2.1vw,16px);
+    background-image: url("../img/item_bg.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+.girlsbypj-all251008-item__sup {
+    width: 94.6%;
+    max-width: 710px;
+    margin: 0 auto!important;    
+}
+.girlsbypj-all251008-item__image {
+    position: relative;
+    margin: min(2.1vw,16px) auto 0;
+}
+.girlsbypj-all251008-item__image01-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.girlsbypj-all251008-item__title {
+    width: 37.86%;
+    max-width: 284px;    
+}
+.girlsbypj-all251008-item__image01 {
+    width: 58.6%!important;
+    max-width: 440px;      
+}
+.girlsbypj-all251008-item__image02 {
+    position: absolute;
+    width: 45.86%!important;
+    max-width: 344px; 
+}
+#girlsbypj-all251008-item01 .girlsbypj-all251008-item__image02,
+#girlsbypj-all251008-item03 .girlsbypj-all251008-item__image02,
+#girlsbypj-all251008-item05 .girlsbypj-all251008-item__image02 {
+    bottom: min(2.6vw,20px);
+    left: min(1.3vw,10px);
+}
+#girlsbypj-all251008-item02 .girlsbypj-all251008-item__image02 {
+    bottom: min(15.3vw,115px);
+    right: min(1.3vw,10px);   
+}
+#girlsbypj-all251008-item04 .girlsbypj-all251008-item__image02 {
+    bottom: min(2.6vw,20px);
+    right: min(1.3vw,10px);   
+}
+.girlsbypj-all251008-item__color-list {
+    display: flex;
+    width: 55.46%!important;
+    max-width: 416px; 
+}
+#girlsbypj-all251008-item01 .girlsbypj-all251008-item__color-list,
+#girlsbypj-all251008-item03 .girlsbypj-all251008-item__color-list,
+#girlsbypj-all251008-item05 .girlsbypj-all251008-item__color-list {
+    justify-content: end;
+    margin: min(2.1vw,16px) min(4.8vw,36px) 0 auto;
+}
+#girlsbypj-all251008-item02 .girlsbypj-all251008-item__color-list--type01 {
+    justify-content: center;
+    margin: min(2.1vw,16px) auto 0 min(4.8vw,36px);
+}
+#girlsbypj-all251008-item02 .girlsbypj-all251008-item__color-list--type02 {
+    margin: 0 auto 0 min(4.8vw,36px);
+}
+#girlsbypj-all251008-item04 .girlsbypj-all251008-item__color-list {
+    margin: min(2.1vw,16px) auto 0 min(4.8vw,36px);
+}
+.girlsbypj-all251008-item__color {
+    width: min(11.73vw,88px)!important;
+    margin: min(1vw,8px) min(1vw,8px) 0;
+}
+@media only screen and (min-width: 768px) {
+    /*item*/
+    .girlsbypj-all251008-item__inner {
+        padding: 0 0 72px;
+    }
+    .girlsbypj-all251008-item {
+        padding: 72px 0 16px;
+    }
+    .girlsbypj-all251008-item__image {
+        margin: 16px auto 0;
+    }
+    #girlsbypj-all251008-item01 .girlsbypj-all251008-item__image02,
+    #girlsbypj-all251008-item03 .girlsbypj-all251008-item__image02,
+    #girlsbypj-all251008-item05 .girlsbypj-all251008-item__image02 {
+        bottom: 20px;
+        left: 10px;
+    }
+    #girlsbypj-all251008-item02 .girlsbypj-all251008-item__image02 {
+        bottom: 115px;
+        right: 10px;   
+    }
+    #girlsbypj-all251008-item04 .girlsbypj-all251008-item__image02 {
+        bottom: 20px;
+        right: 10px;   
+    }
+    #girlsbypj-all251008-item01 .girlsbypj-all251008-item__color-list,
+    #girlsbypj-all251008-item03 .girlsbypj-all251008-item__color-list,
+    #girlsbypj-all251008-item05 .girlsbypj-all251008-item__color-list {
+        margin: 16px 36px 0 auto;
+    }
+    #girlsbypj-all251008-item02 .girlsbypj-all251008-item__color-list--type01 {
+        margin: 16px auto 0 36px;
+    }
+    #girlsbypj-all251008-item02 .girlsbypj-all251008-item__color-list--type02 {
+        margin: 0 auto 0 36px;
+    }
+    #girlsbypj-all251008-item04 .girlsbypj-all251008-item__color-list {
+        margin: 16px auto 0 36px;
+    }
+    .girlsbypj-all251008-item__color {
+        width: 88px!important;
+        margin: 8px 8px 0;
+    }
+}
+
+.girlsbypj-all251008-link--type01 {
+    padding: min(7.46vw,56px) 0 min(6.4vw,48px);
+    background-color: #c06a71;
+}
+.girlsbypj-all251008-link--type02 {
+    padding: min(7.46vw,56px) 0 min(10.6vw, 80px);
+    background-color: #fdffe5;
+}
+.girlsbypj-all251008-link__title {
+    width: 83.2%;
+    max-width: 624px; 
+    margin: 0 auto min(3.2vw,24px);
+}
+.girlsbypj-all251008-link__image--type01 {
+    width: 94.6%!important;
+    max-width: 710px;
+    margin: 0 auto;
+}
+.girlsbypj-all251008-link__image--type02 {
+    width: 83.2%!important;
+    max-width: 624px; 
+    margin: 0 auto min(8.53vw,64px);
+}
+.girlsbypj-all251008-link__note {
+    margin: min(1vw,8px) auto 0;
+    font-size: min(2.1vw,16px);
+    text-align: center;
+}
+.girlsbypj-all251008-link--type01 .girlsbypj-all251008-link__note {
+    color: #fff;
+}
+.girlsbypj-all251008-link__image-inner {
+    width: 83.2%!important;
+    max-width: 624px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.girlsbypj-all251008-link__image--type03 {
+    width: 48.87%!important;
+    max-width: 304px;
+    margin: 0;
+}
+@media only screen and (min-width: 768px) { 
+    .girlsbypj-all251008-link--type01 {
+        padding: 56px 0 48px;
+    }
+    .girlsbypj-all251008-link--type02 {
+        padding: 56px 0 80px;
+    }
+    .girlsbypj-all251008-link__title {
+        margin: 0 auto 24px;
+    }
+    .girlsbypj-all251008-link__image--type02 {
+        margin: 0 auto 64px;
+    }
+    .girlsbypj-all251008-link__note {
+        margin: 8px auto 0;
+        font-size: 16px;
+    }
+}
