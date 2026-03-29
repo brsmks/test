@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* common */
+#header.pane-header {
+    z-index: 100;
+}
+.block-footer-pagetop {
+    z-index: 100;
+}
+
+#braset251022 {
+	text-align: center;
+	font-family: 'Noto Sans JP', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "MS Pゴシック", "MS P Gothic", sans-serif;
+	-webkit-font-feature-settings: 'palt';
+	font-feature-settings: 'palt';
+	font-weight: 400;
+	color: #000;
+    background-color: #f3d6d0;
+	letter-spacing:  .08em;
+	line-height: 1.7;
+	margin: 0 auto;
+	max-width: 750px;
+    padding: 0;
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: contain;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#braset251022 img {
+    width: 100%;
+    height: auto;
+	vertical-align: middle;
+}
+
+#braset251022 a {
+	display: block;
+    width: 100%;
+    height: auto;
+    color: inherit;
+	text-decoration: none;
+}
+
+#braset251022 h2, #braset251022 h3 {
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+/* item-info */
+
+/* btn */
+.original-lpbtn_single {
+    position: relative;
+    z-index: 5;
+}
+.original-lpbtn_name {
+    margin: min(3.2vw,24px) 0 0!important;
+}
+.original-lpbtn_name--price {
+    display: inline-block!important;
+    font-size: 1.6em!important;
+}
+.original-lpbtn_case {
+    margin: min(1vw,8px) auto 0!important;
+}
+.original-lpbtn_cart {
+}
+.original-lpbtn_cart a {
+    color: #fff!important;
+    background-color: #f24973!important;
+}
+.original-lpbtn_detail a {
+    color: #fff!important;
+    background-color: #4d2737!important;
+    outline: unset;
+}
+.original-lpbtn_detail::after {
+    border-color: transparent transparent transparent #fff!important;
+}
+@media only screen and (min-width: 768px) {
+    .original-lpbtn_name {
+        margin: 24px 0 0!important;
+    }
+}
+
+
+/*mv*/
+.braset251022-mv {
+    position: relative;
+}
+.braset251022-mv__title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/*item*/
+.braset251022-item-inner {
+    padding: min(3.2vw,24px) 0 0;
+    background-image: url("../img/bg.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.braset251022-item {
+    position: relative;
+    padding: 0 0 min(8.53vw,64px);
+}
+.braset251022-item__image-inner {
+    position: relative;
+    padding: min(22.4vw,168px) 0 0;
+}
+.braset251022-item__title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 94.6%!important;
+    max-width: 710px;
+    margin: 0 auto;
+}
+.braset251022-item__image01 {
+    width: 90.4%!important;
+    max-width: 678px;
+    margin: 0 auto;
+}
+.braset251022-item__color-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.braset251022-item__color {
+    width: 33.33%!important;
+    max-width: 750px;   
+}
+@media only screen and (min-width: 768px) {
+    /*item*/
+    .braset251022-item-inner {
+        padding: 24px 0 0;
+    }
+    .braset251022-item {
+        padding: 0 0 64px;
+    }
+    .braset251022-item__image-inner {
+        padding: 168px 0 0;
+    }
+    .braset251022-item__title {
+    }
+    .braset251022-item__image01 {
+    }
+    .braset251022-item__color-inner {
+    }
+    .braset251022-item__color {
+    }
+}
+
+
+/*link*/
+.braset251022-link {
+    padding: min(8.53vw,64px) min(8.53vw,64px) min(8.53vw,64px);
+    background-color: #f2fbff;
+}
+.braset251022-link__title {
+    margin: 0 auto min(3.2vw,24px);
+}
+.braset251022-link__image {
+    margin: 0 auto min(8.53vw,64px);
+}
+.braset251022-link__note {
+    margin: min(1vw,8px) auto 0;
+    font-size: min(2.1vw,16px); 
+}
+.braset251022-link__image-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.braset251022-link__image-inner > .braset251022-link__image {
+    width: 48.87%!important;
+    max-width: 304px;
+    margin: 0;
+}
+@media only screen and (min-width: 768px) { 
+    .braset251022-link {
+        padding: 64px 64px 80px;
+    }
+    .braset251022-link__title {
+        margin: 0 auto 24px;
+    }
+    .braset251022-link__image {
+        margin: 0 auto 64px;
+    }
+    .braset251022-link__note {
+        margin: 8px auto 0;
+        font-size: 16px; 
+    }
+    .braset251022-link__image-inner {
+    }
+    .braset251022-link__image-inner > .braset251022-link__image {
+    }
+}
