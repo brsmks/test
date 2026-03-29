@@ -1,0 +1,330 @@
+@charset "UTF-8";
+/* common */
+#header.pane-header {
+    z-index: 100;
+}
+.block-footer-pagetop {
+    z-index: 100;
+}
+
+#miraclefit250716 {
+	text-align: left;
+	font-family: 'Noto Sans JP', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "MS Pゴシック", "MS P Gothic", sans-serif;
+	-webkit-font-feature-settings: 'palt';
+	font-feature-settings: 'palt';
+	font-weight: 400;
+	color: #584a4a;
+    background-color: #9f9abf;
+	letter-spacing:  .08em;
+	line-height: 1.6;
+	margin: 0 auto;
+	max-width: 750px;
+    padding: 0;
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: contain;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#miraclefit250716 img {
+    width: 100%;
+    height: auto;
+	vertical-align: middle;
+}
+
+#miraclefit250716 a {
+	display: block;
+    width: 100%;
+    height: auto;
+    color: inherit;
+	text-decoration: none;
+}
+
+#miraclefit250716 h2, #miraclefit250716 h3 {
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+/* item-info */
+
+/* btn */
+.original-lpbtn_single {
+    margin: min(2.6vw,20px) auto 0;
+}
+.original-lpbtn_name--price {
+    display: inline-block!important;
+    font-size: 2em;
+}
+.original-lpbtn_case {
+    /*padding: 0!important;*/
+}
+.original-lpbtn_cart {
+    /*margin: 0 min(1vw,8px) 0 0!important;*/
+}
+.original-lpbtn_cart a {
+    color: #bf5f5f!important;
+    background-color: #fff!important;
+    outline: min(.13vw,1px) solid #bf5f5f;
+}
+.original-lpbtn_detail a {
+    color: #fff!important;
+    background-color: #bf5f5f!important;
+    outline: min(.13vw,1px) solid #fff;
+}
+.original-lpbtn_cart::after {
+    border-color: transparent transparent transparent #bf5f5f!important;
+}
+.original-lpbtn_detail::after {
+    border-color: transparent transparent transparent #fff!important;
+}
+@media only screen and (min-width: 768px) {
+    /* btn */
+    .original-lpbtn_single {
+        margin: 20px auto 0;
+    }
+    .original-lpbtn_name--price {
+    }
+    .original-lpbtn_case {
+    }
+    .original-lpbtn_cart {
+    }
+    .original-lpbtn_cart a {
+        outline: 1px solid #bf5f5f;
+    }
+    .original-lpbtn_detail a {
+        outline: 1px solid #fff;
+    }
+    .original-lpbtn_cart::after {
+    }
+    .original-lpbtn_detail::after {
+    }
+}
+
+/*mv*/
+.miraclefit250716-mv {
+    position: relative;
+}
+.miraclefit250716-mv__title--main {
+    position: absolute;
+    top: min(4vw,30px);
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto!important;
+}
+.miraclefit250716-mv__title--sub {
+    position: absolute;
+    bottom: min(7.2vw,54px);
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto!important;
+}
+.miraclefit250716-mv__icon {
+    position: absolute;
+    bottom: min(22.4vw,168px);
+    left: min(8.53vw,64px);
+    width: 22.93%;
+    max-width: 172px;
+    margin: 0 auto!important;   
+}
+@media only screen and (min-width: 768px) {
+    /*mv*/
+    .miraclefit250716-mv {
+    }
+    .miraclefit250716-mv__title--main {
+        top: 30px;
+    }
+    .miraclefit250716-mv__title--sub {
+        bottom: 54px;
+    }
+    .miraclefit250716-mv__icon {
+        bottom: 168px;
+        left: 64px;
+    }
+}
+
+/*item*/
+.miraclefit250716-item {
+    position: relative;
+    padding: 0 0 min(8.53vw,64px);
+}
+.miraclefit250716-item__image {
+    width: 64%!important;
+    max-width: 480px;
+    margin: 0 auto;
+}
+.miraclefit250716-item__deco01 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 26.66%!important;
+    max-width: 200px;
+}
+.miraclefit250716-item__deco02 {
+    position: absolute;
+    bottom: min(17.06vw,128px);
+    left: 0;
+    width: 33.06%!important;
+    max-width: 248px;
+}
+.miraclefit250716-item__icon {
+    position: absolute;
+    top: min(5.3vw,40px);
+    left: min(8.53vw,64px);
+    width: 22.93%;
+    max-width: 172px;
+    margin: 0 auto!important;   
+}
+@media only screen and (min-width: 768px) {
+    /*item*/
+    .miraclefit250716-item {
+        padding: 0 0 64px;
+    }
+    .miraclefit250716-item__image {
+    }
+    .miraclefit250716-item__deco01 {
+    }
+    .miraclefit250716-item__deco02 {
+        bottom: 128px;
+    }
+    .miraclefit250716-item__icon {
+        top: 40px;
+        left: 64px; 
+    }
+}
+
+/*point*/
+.miraclefit250716-point {
+    padding: min(11.73vw,88px) min(4.26vw,32px) min(8.53vw,64px);
+    background: url("../img/point_bg.png"), linear-gradient(to bottom, #e8e7f3, #d6d4f3);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.miraclefit250716-point__inner {
+    margin: min(4.26vw,32px) auto 0;
+    padding: min(5.3vw,40px) min(3vw,23px) min(4.26vw,32px);
+    background-color: #fff;
+    border-radius: min(4.26vw,32px);
+    box-shadow: 0px 0px 12px 0px rgba(85, 77, 128, 0.2);
+}
+.miraclefit250716-point__image {
+    margin: min(2.6vw,20px) auto 0!important;
+}
+.miraclefit250716-point__text {
+    margin: min(2.1vw,16px) auto 0;
+    font-size: min(3.73vw,28px);
+}
+.miraclefit250716-point__text>span {
+    color: #d14545;
+}
+@media only screen and (min-width: 768px) {
+    /*point*/
+    .miraclefit250716-point {
+        padding: 88px 32px 64px;
+    }
+    .miraclefit250716-point__inner {
+        margin: 32px auto 0;
+        padding: 40px 23px 32px;
+        border-radius: 32px;
+    }
+    .miraclefit250716-point__image {
+        margin: 20px auto 0!important;
+    }
+    .miraclefit250716-point__text {
+        margin: 16px auto 0;
+        font-size: 28px;
+    }
+    .miraclefit250716-point__text>span {
+    }
+}
+
+/*laundry*/
+.miraclefit250716-laundry {
+    padding: min(22.4vw,168px) min(4.26vw,32px) min(10.6vw,80px);
+    background-color: #f8e7e7;
+    background-image: url("../img/laundry_bg.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+.miraclefit250716-laundry__inner {
+    position: relative;
+    padding: min(8.53vw,64px) min(3vw,23px) min(4.26vw,32px);
+    background-color: #fff;
+    border-radius: min(4.26vw,32px);
+    box-shadow: 0px 0px 12px 0px rgba(85, 77, 128, 0.2);    
+}
+.miraclefit250716-laundry__title {
+}
+.miraclefit250716-laundry__title-icon {
+    position: absolute;
+    top: -10.92vw;
+    left: 0;
+    right: 0;
+    width: 14.93vw!important;
+    max-width: 112px;
+    margin: 0 auto;
+}
+.miraclefit250716-laundry__image-inner {
+    display: flex;
+    justify-content: space-between;
+    margin: min(2.6vw,20px) auto 0;
+}
+.miraclefit250716-laundry__image {
+    width: 49%!important;
+}
+.miraclefit250716-laundry__text {
+    margin: min(2.1vw,16px) auto 0;
+    color: #6455ab;
+    font-size: min(4vw,30px);
+    text-align: center;
+}
+.miraclefit250716-laundry__text>span {
+    color: #d14545;
+}
+.miraclefit250716-laundry__comment-title {
+    margin: min(5.3vw,40px) auto 0;
+}
+.miraclefit250716-laundry__comment-text {
+    margin: min(1vw,8px) auto 0;
+}
+@media only screen and (min-width: 768px) {
+    /*laundry*/
+    .miraclefit250716-laundry {
+        padding: 168px 32px 80px;  
+    }
+    .miraclefit250716-laundry__inner {
+        padding: 64px 23px 32px;
+        border-radius: 32px; 
+    }
+    .miraclefit250716-laundry__title {
+    }
+    .miraclefit250716-laundry__title-icon {
+        top: -82px;
+    }
+    .miraclefit250716-laundry__image-inner {
+        margin: 20px auto 0;
+    }
+    .miraclefit250716-laundry__image {
+    }
+    .miraclefit250716-laundry__text {
+        margin: 16px auto 0;
+        font-size: 30px;
+    }
+    .miraclefit250716-laundry__text>span {
+    }
+    .miraclefit250716-laundry__comment-title {
+        margin: 40px auto 0;
+    }
+    .miraclefit250716-laundry__comment-text {
+        margin: 8px auto 0;
+    }
+}
