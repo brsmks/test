@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* common */
+#header.pane-header {
+    z-index: 100;
+}
+.block-footer-pagetop {
+    z-index: 100;
+}
+
+#pjbraset260107 {
+    position: relative;
+	text-align: center;
+	font-family: 'Noto Sans JP', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "MS Pゴシック", "MS P Gothic", sans-serif;
+	-webkit-font-feature-settings: 'palt';
+	font-feature-settings: 'palt';
+	font-weight: 400;
+	color: #fff;
+    background-color: #25331b;
+	letter-spacing: .05em;
+	line-height: 1.7;
+	margin: 0 auto;
+	max-width: 750px;
+    /*padding: 0 0 min(11.7vw,88px);*/
+}
+
+#pjbraset260107 img {
+    width: 100%;
+    height: auto;
+	vertical-align: middle;
+}
+
+#pjbraset260107 a {
+	display: block;
+    width: 100%;
+    height: auto;
+    color: inherit;
+	text-decoration: none;
+}
+
+#pjbraset260107 h2, #pjbraset260107 h3 {
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+
+.pjbraset260107-ttl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.pjbraset260107-item__color-list {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 36.26%;
+    max-width: 272px;
+    /*height: 100%;*/
+    padding: min(32.53vw,244px) 2.6% 0;
+    background-color: rgba(38,51,26,0.60);
+}
+.pjbraset260107-item__color-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: min(6.4vw,48px) 0 min(1vw,8px);
+}
+.pjbraset260107-item__color {
+    width: 45.90%!important;
+    max-width: 112px;    
+}
+.pjbraset260107-bg__deco {
+    position: absolute;
+    bottom: min(7.46vw,56px);
+    right: min(8vw,60px);
+    width: 10.6%!important;
+    max-width: 80px;
+}
+@media only screen and (min-width: 768px) { 
+    .pjbraset260107-ttl {
+
+    }
+    .pjbraset260107-item__color-list {
+        padding: 244px 2.6% 0;
+    }
+    .pjbraset260107-item__color-inner {
+        padding: 48px 0 8px;
+    }
+    .pjbraset260107-item__color {
+    }
+    .pjbraset260107-bg__deco {
+        bottom: 56px;
+        right: 60px;
+    }
+}
